@@ -1,15 +1,15 @@
 # GtechX
 
-#Dataset:
-Dataset Link : https://www.kaggle.com/datasets/stackoverflow/stacksample
+# Dataset:
+Dataset Link: https://www.kaggle.com/datasets/stackoverflow/stacksample
 
-#Seeking data:
+# Seeking data:
 Before moving to data cleaning let’s just first see how our data looks like, so for that purpose we going to open the questions.csv and answer.csv and count each rows & columns and also check the datatype of it.
 
-#Data cleaning:
+# Data cleaning:
 Before building the model we firstly need to clean our our question dataset will going to used for further processing, since its taken from stackoverflow webpage so it have html tags, digits, formulaes, non-ASCII characters & what not. So we going to use regex (or regular expressions to deal with it). We going to only consider ASCII characters, converting upper cases words to lower case, removing html tags, removing http links, making words like haven’t can’t to can not, have not, viz; removing those short hand keywords & later remove all stopwords (stop words are those which aren’t helping us make better models & this words came very frequently inside our text & are basic english words like can, have, why, what, am, his, her etc. This all cleaning will be doing only on questions title.
 
-#Modelling:
+# Modelling:
 1. Using Stackoverflow 10% data from kaggle.
 2. Loading data in python (using csv)
 Why csv (whyn’t pandas)? A good search engine have high precision & speed with low computational & server cost. So if we use pandas to store this big data we’ll end up making a dataframe → extra space as well extra time to compute. By using basic csv we’re getting way faster speed.
