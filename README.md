@@ -1,4 +1,4 @@
-# GtechX
+# Queryly
 
 # Dataset:
 Dataset Link: https://www.kaggle.com/datasets/stackoverflow/stacksample
