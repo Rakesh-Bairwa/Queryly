@@ -1,4 +1,6 @@
 # Queryly
+using kaggle 10% stackoverflow Dataset https://www.kaggle.com/datasets/stackoverflow/stacksample, I build a search engine that takes a question as a input & then find similar relevant(using cosine similarity) already solved question from the data set.
+
 
 # Dataset:
 Dataset Link: https://www.kaggle.com/datasets/stackoverflow/stacksample
